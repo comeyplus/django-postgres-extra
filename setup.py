@@ -63,12 +63,13 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
         "Topic :: Internet :: WWW/HTTP",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
     ],
     python_requires=">=3.6",
     install_requires=[
-        "Django>=2.0,<5.0",
+        "Django==5.0rc1",
         "python-dateutil>=2.8.0,<=3.0.0",
     ],
     extras_require={
@@ -79,7 +80,7 @@ setup(
             "dj-database-url==0.5.0",
             "pytest==6.2.5",
             "pytest-benchmark==3.4.1",
-            "pytest-django==4.4.0",
+            "pytest-django==4.7.0",
             "pytest-cov==3.0.0",
             "pytest-lazy-fixture==0.6.3",
             "pytest-freezegun==0.4.2",
