@@ -69,7 +69,7 @@ setup(
     ],
     python_requires=">=3.6",
     install_requires=[
-        "Django==5.0rc1",
+        "Django>=5.0,<6.0",
         "python-dateutil>=2.8.0,<=3.0.0",
     ],
     extras_require={
